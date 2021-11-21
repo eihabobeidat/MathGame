@@ -1,0 +1,52 @@
+body {
+  background-image: url("bg.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#levelTest {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 10rem;
+  letter-spacing: 7px;
+  font-family: fantasy;
+  animation-name: h1color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+h2 {
+  text-align: center;
+  font-size: 10rem;
+  letter-spacing: 5px;
+  font-family: fantasy;
+  color: #1e69d6e3;
+}
+
+h1:hover {
+  cursor: pointer;
+  animation-name: none;
+}
+
+h3 {
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 5px;
+  font-family: fantasy;
+  color: #c41ab7b8;
+}
+
+@keyframes h1color{
+  0%{color: purple;}
+  15%{color: darkblue;}
+  30%{color: skyblue;}
+  45%{color: green;}
+  60%{color: lightyellow;}
+  85%{color: darkorange;}
+  95%{color: darkred;}
+  100%{color: darkred;}
+}
