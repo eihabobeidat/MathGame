@@ -99,7 +99,7 @@ function Victory()
 
 function lose()
 {
-	//lose
+	//los
 	console.log('Victory');
 	let elemnt = document.getElementById('resultScreen');
 	let message = document.getElementById(`message`).innerHTML=`Need improvement ${name}, scored ${finalMark}`;
