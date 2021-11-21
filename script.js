@@ -107,9 +107,9 @@ function lose()
 	figth.src = "rasengan.gif";
 	figth.style.paddingLeft = "26%";
 // 	figth.hight="50%";
-// 	let anime = document.createElement('img');
+ 	let anime = document.createElement('img');
 	anime.src = "sad.gif";
-// 	let sound = document.createElement('audio');
+ 	let sound = document.createElement('audio');
 	sound.src = "los.mp4";
 	sound.type= "video/mp4";
 	sound.autoplay= true;
