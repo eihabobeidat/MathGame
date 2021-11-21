@@ -105,7 +105,7 @@ function lose()
 	let message = document.getElementById(`message`).innerHTML=`Need improvement ${name}, scored ${finalMark}`;
 	let figth = document.createElement('img');
 	figth.src = "rasengan.gif";
-	// figth.style.paddingLeft = "25%";
+	figth.style.paddingLeft = "25%";
 	figth.hight="50%";
 	let anime = document.createElement('img');
 	anime.src = "sad.gif";
